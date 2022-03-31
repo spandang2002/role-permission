@@ -1,7 +1,6 @@
 package com.roleManagement.rolebasedManagement.permission;
 
-import com.roleManagement.rolebasedManagement.action.Action;
-import com.roleManagement.rolebasedManagement.resource.Resource;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.roleManagement.rolebasedManagement.role.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -20,10 +19,10 @@ import java.util.Set;
 @Table(name = "permission")
 public class Permission {
     @Id
-    @Column(name = "\"PERMISSION_ID\"", nullable = false)
+    @Column(name = "permission_id", nullable = false)
     private Integer id;
 
-    @Column(name = "\"PERMISSION_NAME\"", nullable = false, length = 50)
+    @Column(name = "permission_name", nullable = false, length = 50)
     private String permissionName;
 
     public Set<Role> getRole() {
@@ -58,7 +57,7 @@ public class Permission {
 //        this.action = action;
 //    }
     @ManyToMany(mappedBy = "permission")
-
+@JsonIgnore
     private Set<Role> role=new HashSet<>();
 
     public String getPermissionName() {

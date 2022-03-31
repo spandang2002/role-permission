@@ -1,11 +1,8 @@
-package com.roleManagement.rolebasedManagement.action;
+package com.roleManagement.rolebasedManagement.entity;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Builder
 @AllArgsConstructor

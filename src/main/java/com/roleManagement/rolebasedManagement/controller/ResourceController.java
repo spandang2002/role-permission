@@ -1,15 +1,13 @@
-package com.roleManagement.rolebasedManagement.resource;
+package com.roleManagement.rolebasedManagement.controller;
 
+import com.roleManagement.rolebasedManagement.entity.Resource;
+import com.roleManagement.rolebasedManagement.service.ResourceService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("/resource")
 public class ResourceController {
     @Autowired
     private ResourceService resourceService;
@@ -19,7 +17,7 @@ public class ResourceController {
         return resourceService.listAllResource();
     }
 
-    @PostMapping("/save")
+    @PostMapping("/saveResource")
     public void add(@RequestBody Resource resource){
 
         resourceService.saveResource(resource);

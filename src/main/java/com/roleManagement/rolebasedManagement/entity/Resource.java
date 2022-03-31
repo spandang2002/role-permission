@@ -1,4 +1,4 @@
-package com.roleManagement.rolebasedManagement.resource;
+package com.roleManagement.rolebasedManagement.entity;
 
 import lombok.*;
 

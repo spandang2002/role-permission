@@ -26,9 +26,9 @@ import java.util.stream.Collectors;
                 .stream().map(
                         permission -> {
                             Permission permission1=permission;
-                            if(permission1.getId()>0){
-                                permissionRepository.findAllById(permission1.getId());
-                            }
+//                            if(permission1.getId()>0){
+//                                permissionRepository.findAllById(permission1.getId());
+//                            }
                             permission1.addRole(role);
                             return permission1;
                         }

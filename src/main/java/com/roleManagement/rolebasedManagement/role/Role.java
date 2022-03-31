@@ -1,9 +1,8 @@
 package com.roleManagement.rolebasedManagement.role;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.roleManagement.rolebasedManagement.configrolepermission.Configrolepermission;
 import com.roleManagement.rolebasedManagement.permission.Permission;
-import com.roleManagement.rolebasedManagement.permission.PermissionController;
-
 import javax.management.relation.RoleList;
 import javax.persistence.*;
 import java.util.HashSet;
@@ -55,11 +54,12 @@ public class Role {
         this.permission = permission;
     }
 
-    @ManyToMany(cascade={CascadeType.DETACH,CascadeType.MERGE,CascadeType.PERSIST,CascadeType.REFRESH})
+    @ManyToMany(fetch=FetchType.EAGER)
     @JoinTable(name="configrolepermission",
      joinColumns = @JoinColumn(name="role_id"),
             inverseJoinColumns = @JoinColumn(name="permission_id")
     )
+    @JsonIgnore
     private Set<Permission>permission=new HashSet<>();
 
     public String getRoleName() {

@@ -1,5 +1,7 @@
-package com.roleManagement.rolebasedManagement.resource;
+package com.roleManagement.rolebasedManagement.service;
 
+import com.roleManagement.rolebasedManagement.entity.Resource;
+import com.roleManagement.rolebasedManagement.repository.ResourceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

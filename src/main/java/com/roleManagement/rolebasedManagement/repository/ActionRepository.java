@@ -1,5 +1,6 @@
-package com.roleManagement.rolebasedManagement.action;
+package com.roleManagement.rolebasedManagement.repository;
 
+import com.roleManagement.rolebasedManagement.entity.Action;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ActionRepository extends JpaRepository<Action, Integer> {
