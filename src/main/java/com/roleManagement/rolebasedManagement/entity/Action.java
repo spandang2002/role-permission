@@ -1,8 +1,10 @@
 package com.roleManagement.rolebasedManagement.entity;
 
+import com.roleManagement.rolebasedManagement.pojo.PermissionRequest;
 import lombok.*;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 @Builder
 @AllArgsConstructor
@@ -14,10 +16,39 @@ import javax.persistence.*;
 public class Action {
     @Id
     @Column(name = "action_id", nullable = false)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     @Column(name = "action_name", nullable = false, length = 50)
     private String actionName;
+
+    @Override
+    public String toString() {
+        return "Action{" +
+                "id=" + id +
+                ", actionName='" + actionName + '\'' +
+                ", actionDesc='" + actionDesc + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Action action = (Action) o;
+        return id.equals(action.id) && actionName.equals(action.actionName) && actionDesc.equals(action.actionDesc);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, actionName, actionDesc);
+    }
+
+    public Action(String actionName, String actionDesc) {
+        this.id = id;
+        this.actionName = actionName;
+        this.actionDesc = actionDesc;
+    }
 
     @Column(name = "action_desc", nullable = false, length = 50)
     private String actionDesc;
@@ -44,5 +75,10 @@ public class Action {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    public void add(Action action) {
+         this.add(action);
+
     }
 }

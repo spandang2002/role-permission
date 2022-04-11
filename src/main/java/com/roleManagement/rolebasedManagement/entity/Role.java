@@ -1,4 +1,4 @@
-package com.roleManagement.rolebasedManagement.role;
+package com.roleManagement.rolebasedManagement.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.roleManagement.rolebasedManagement.permission.Permission;
