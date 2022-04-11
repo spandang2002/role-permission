@@ -1,7 +1,6 @@
 package com.roleManagement.rolebasedManagement.permission;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.roleManagement.rolebasedManagement.role.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -25,40 +24,19 @@ public class Permission {
     @Column(name = "permission_name", nullable = false, length = 50)
     private String permissionName;
 
-    public Set<Role> getRole() {
+    public Set<Permission> getRole() {
         return role;
     }
 
-    public void setRole(Set<Role> role) {
+    public void setRole(Set<Permission> role) {
         this.role = role;
     }
-
-    //    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-//    @JoinColumn(name = "action_id", nullable = false)
-//    private Action action;
-//
-//    @ManyToOne(fetch = FetchType.LAZY, optional = false)
-//    @JoinColumn(name = "resource_id", nullable = false)
-//    private Resource resource;
-//
-//    public Resource getResource() {
-//        return resource;
-//    }
-//
-//    public void setResource(Resource resource) {
-//        this.resource = resource;
-//    }
-//
-//    public Action getAction() {
-//        return action;
-//    }
-//
-//    public void setAction(Action action) {
-//        this.action = action;
-//    }
-    @ManyToMany(mappedBy = "permission")
-@JsonIgnore
-    private Set<Role> role=new HashSet<>();
+    @JsonIgnore
+    @ManyToMany(fetch = FetchType.LAZY,cascade = {
+            CascadeType.PERSIST,
+            CascadeType.MERGE
+    },mappedBy = "permission")
+    private Set<Permission> role=new HashSet<Permission>();
 
     public String getPermissionName() {
         return permissionName;
@@ -75,7 +53,8 @@ public class Permission {
     public void setId(Integer id) {
         this.id = id;
     }
-    public void addRole(Role role){
-        this.role.add(role);
+
+    public void add(Permission permission) {
+        role.add(permission);
     }
 }
