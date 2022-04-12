@@ -1,0 +1,179 @@
+2022-04-11 10:35:10,611 [INFO] com.roleManagement.rolebasedManagement.RolebasedManagementApplication [restartedMain]2022-04-11 10:35:10,612 [INFO] com.roleManagement.rolebasedManagement.RolebasedManagementApplication [restartedMain]2022-04-11 10:35:10,644 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain]2022-04-11 10:35:10,644 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain]2022-04-11 10:35:11,156 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain]2022-04-11 10:35:11,210 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain]2022-04-11 10:35:11,597 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain]2022-04-11 10:35:11,604 [INFO] org.apache.catalina.core.StandardService [restartedMain]2022-04-11 10:35:11,604 [INFO] org.apache.catalina.core.StandardEngine [restartedMain]2022-04-11 10:35:11,648 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain]2022-04-11 10:35:11,648 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain]2022-04-11 10:35:11,667 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain]2022-04-11 10:35:11,760 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain]2022-04-11 10:35:11,767 [INFO] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain]2022-04-11 10:35:11,866 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain]2022-04-11 10:35:11,904 [INFO] org.hibernate.Version [restartedMain]2022-04-11 10:35:12,067 [INFO] org.hibernate.annotations.common.Version [restartedMain]2022-04-11 10:35:12,130 [INFO] org.hibernate.dialect.Dialect [restartedMain]2022-04-11 10:35:12,496 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain]2022-04-11 10:35:12,502 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain]2022-04-11 10:35:12,810 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain]2022-04-11 10:35:13,028 [WARN] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain]2022-04-11 10:35:13,059 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain]2022-04-11 10:35:13,067 [INFO] com.roleManagement.rolebasedManagement.RolebasedManagementApplication [restartedMain]2022-04-11 10:35:17,069 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2]2022-04-11 10:35:17,069 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2]2022-04-11 10:35:17,071 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-2]2022-04-11 10:35:17,090 [INFO] com.roleManagement.rolebasedManagement.controller.ActionController [http-nio-8080-exec-2]2022-04-11 10:35:17,186 [INFO] com.roleManagement.rolebasedManagement.service.ActionService [http-nio-8080-exec-2]2022-04-11 10:37:02,189 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook]2022-04-11 10:37:02,191 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook]2022-04-11 10:37:02,195 [INFO] com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook][33m2022-04-11 10:37:04[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mc.r.r.RolebasedManagementApplication[0;39m - [32mStarting RolebasedManagementApplication using Java 1.8.0_322 on intuitdep81456 with PID 88102 (/Users/ppanda2/Downloads/rolebasedManagement/target/classes started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+[0;39m[33m2022-04-11 10:37:04[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mc.r.r.RolebasedManagementApplication[0;39m - [32mNo active profile set, falling back to 1 default profile: "default"
+[0;39m[33m2022-04-11 10:37:04[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[0;39m[33m2022-04-11 10:37:04[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.d.e.DevToolsPropertyDefaultsPostProcessor[0;39m - [32mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[0;39m[33m2022-04-11 10:37:04[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mBootstrapping Spring Data JPA repositories in DEFAULT mode.
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.d.r.c.RepositoryConfigurationDelegate[0;39m - [32mFinished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat initialized with port(s): 8080 (http)
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.a.catalina.core.StandardService[0;39m - [32mStarting service [Tomcat]
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.a.catalina.core.StandardEngine[0;39m - [32mStarting Servlet engine: [Apache Tomcat/9.0.58]
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring embedded WebApplicationContext
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.w.s.c.ServletWebServerApplicationContext[0;39m - [32mRoot WebApplicationContext: initialization completed in 953 ms
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Starting...
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Start completed.
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.a.h.H2ConsoleAutoConfiguration[0;39m - [32mH2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/task'
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.h.jpa.internal.util.LogHelper[0;39m - [32mHHH000204: Processing PersistenceUnitInfo [name: default]
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36morg.hibernate.Version[0;39m - [32mHHH000412: Hibernate ORM core version 5.6.5.Final
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.h.annotations.common.Version[0;39m - [32mHCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[0;39m[33m2022-04-11 10:37:05[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36morg.hibernate.dialect.Dialect[0;39m - [32mHHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator[0;39m - [32mHHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mInitialized JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [31mWARN [0;39m [36mo.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration[0;39m - [32mspring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [31mWARN [0;39m [36mo.s.b.d.a.OptionalLiveReloadServer[0;39m - [32mUnable to start LiveReload server
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mo.s.b.w.e.tomcat.TomcatWebServer[0;39m - [32mTomcat started on port(s): 8080 (http) with context path ''
+[0;39m[33m2022-04-11 10:37:06[0;39m [34m[restartedMain][0;39m [34mINFO [0;39m [36mc.r.r.RolebasedManagementApplication[0;39m - [32mStarted RolebasedManagementApplication in 2.712 seconds (JVM running for 3.2)
+[0;39m[33m2022-04-11 10:37:12[0;39m [34m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/][0;39m - [32mInitializing Spring DispatcherServlet 'dispatcherServlet'
+[0;39m[33m2022-04-11 10:37:12[0;39m [34m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mInitializing Servlet 'dispatcherServlet'
+[0;39m[33m2022-04-11 10:37:12[0;39m [34m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m [36mo.s.web.servlet.DispatcherServlet[0;39m - [32mCompleted initialization in 1 ms
+[0;39m[33m2022-04-11 10:37:12[0;39m [34m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m [36mc.r.r.controller.ActionController[0;39m - [32mGetting all the Action list
+[0;39m[33m2022-04-11 10:37:12[0;39m [34m[http-nio-8080-exec-1][0;39m [34mINFO [0;39m [36mc.r.r.service.ActionService[0;39m - [32mThis action table has total : 5 actions
+[0;39m[33m2022-04-11 10:43:42[0;39m [34m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [36mo.s.o.j.LocalContainerEntityManagerFactoryBean[0;39m - [32mClosing JPA EntityManagerFactory for persistence unit 'default'
+[0;39m[33m2022-04-11 10:43:42[0;39m [34m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown initiated...
+[0;39m[33m2022-04-11 10:43:42[0;39m [34m[SpringApplicationShutdownHook][0;39m [34mINFO [0;39m [36mcom.zaxxer.hikari.HikariDataSource[0;39m - [32mHikariPool-1 - Shutdown completed.
+[0;39m2022-04-11 10:43:45 - Starting RolebasedManagementApplication using Java 1.8.0_322 on intuitdep81456 with PID 88688 (/Users/ppanda2/Downloads/rolebasedManagement/target/classes started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 10:43:45 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 10:43:45 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-11 10:43:45 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-11 10:43:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 10:43:46 - Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2022-04-11 10:43:46 - Tomcat initialized with port(s): 8080 (http)
+2022-04-11 10:43:46 - Starting service [Tomcat]
+2022-04-11 10:43:46 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-11 10:43:46 - Initializing Spring embedded WebApplicationContext
+2022-04-11 10:43:46 - Root WebApplicationContext: initialization completed in 1027 ms
+2022-04-11 10:43:46 - HikariPool-1 - Starting...
+2022-04-11 10:43:46 - HikariPool-1 - Start completed.
+2022-04-11 10:43:46 - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/task'
+2022-04-11 10:43:46 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 10:43:46 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-11 10:43:47 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 10:43:47 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 10:43:47 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 10:43:47 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 10:43:47 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-11 10:43:48 - Unable to start LiveReload server
+2022-04-11 10:43:48 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-11 10:43:48 - Started RolebasedManagementApplication in 2.946 seconds (JVM running for 3.414)
+2022-04-11 10:43:53 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 10:43:53 - Initializing Servlet 'dispatcherServlet'
+2022-04-11 10:43:53 - Completed initialization in 2 ms
+2022-04-11 10:43:53 - Getting all the Action list
+2022-04-11 10:43:53 - This action table has total : 5 actions
+2022-04-11 10:44:21 - Getting all the Action list
+2022-04-11 10:44:21 - This resource table has total : 6 resources
+2022-04-11 10:46:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 10:46:35 - HikariPool-1 - Shutdown initiated...
+2022-04-11 10:46:35 - HikariPool-1 - Shutdown completed.
+2022-04-11 10:46:38 - Starting RolebasedManagementApplication using Java 1.8.0_322 on intuitdep81456 with PID 88978 (/Users/ppanda2/Downloads/rolebasedManagement/target/classes started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 10:46:38 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 10:46:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-11 10:46:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-11 10:46:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 10:46:38 - Finished Spring Data repository scanning in 41 ms. Found 6 JPA repository interfaces.
+2022-04-11 10:46:39 - Tomcat initialized with port(s): 8080 (http)
+2022-04-11 10:46:39 - Starting service [Tomcat]
+2022-04-11 10:46:39 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-11 10:46:39 - Initializing Spring embedded WebApplicationContext
+2022-04-11 10:46:39 - Root WebApplicationContext: initialization completed in 973 ms
+2022-04-11 10:46:39 - HikariPool-1 - Starting...
+2022-04-11 10:46:39 - HikariPool-1 - Start completed.
+2022-04-11 10:46:39 - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/task'
+2022-04-11 10:46:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 10:46:39 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-11 10:46:39 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 10:46:39 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 10:46:40 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 10:46:40 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 10:46:40 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-11 10:46:40 - Unable to start LiveReload server
+2022-04-11 10:46:40 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-11 10:46:40 - Started RolebasedManagementApplication in 2.877 seconds (JVM running for 3.408)
+2022-04-11 10:46:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-11 10:46:44 - Initializing Servlet 'dispatcherServlet'
+2022-04-11 10:46:44 - Completed initialization in 1 ms
+2022-04-11 10:46:44 - Getting all the Action list
+2022-04-11 10:46:44 - This resource table has total : 6 resources
+2022-04-11 11:12:01 - Starting ActionTest using Java 1.8.0_322 on intuitdep81456 with PID 91299 (started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 11:12:01 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 11:12:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 11:12:01 - Finished Spring Data repository scanning in 49 ms. Found 6 JPA repository interfaces.
+2022-04-11 11:12:02 - HikariPool-1 - Starting...
+2022-04-11 11:12:02 - HikariPool-1 - Start completed.
+2022-04-11 11:12:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 11:12:02 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-11 11:12:02 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 11:12:02 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 11:12:03 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 11:12:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:12:03 - Started ActionTest in 3.002 seconds (JVM running for 3.953)
+2022-04-11 11:12:03 - Began transaction (1) for test context [DefaultTestContext@25fb8912 testClass = ActionTest, testInstance = com.roleManagement.rolebasedManagement.ActionTest@49049a04, testMethod = testCreateAction@ActionTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7c24b813 testClass = ActionTest, locations = '{}', classes = '{class com.roleManagement.rolebasedManagement.RolebasedManagementApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2c35e847 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@f5958c9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5bda8e08, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@3d285d7e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@ba2f4ec, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@94756331, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@38afe297, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@1a531422]; rollback [true]
+2022-04-11 11:12:04 - Rolled back transaction for test: [DefaultTestContext@25fb8912 testClass = ActionTest, testInstance = com.roleManagement.rolebasedManagement.ActionTest@49049a04, testMethod = testCreateAction@ActionTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7c24b813 testClass = ActionTest, locations = '{}', classes = '{class com.roleManagement.rolebasedManagement.RolebasedManagementApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@2c35e847 key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@f5958c9, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5bda8e08, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@3d285d7e, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@ba2f4ec, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@94756331, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@38afe297, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-04-11 11:12:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:12:04 - HikariPool-1 - Shutdown initiated...
+2022-04-11 11:12:04 - HikariPool-1 - Shutdown completed.
+2022-04-11 11:19:39 - Starting PermissionTest using Java 1.8.0_322 on intuitdep81456 with PID 92050 (started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 11:19:39 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 11:19:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 11:19:39 - Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
+2022-04-11 11:19:40 - HikariPool-1 - Starting...
+2022-04-11 11:19:40 - HikariPool-1 - Start completed.
+2022-04-11 11:19:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 11:19:40 - HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-11 11:19:40 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-11 11:19:40 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 11:19:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 11:19:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:19:42 - Started PermissionTest in 3.317 seconds (JVM running for 4.306)
+2022-04-11 11:19:42 - Began transaction (1) for test context [DefaultTestContext@2c35e847 testClass = PermissionTest, testInstance = com.roleManagement.rolebasedManagement.PermissionTest@27462a88, testMethod = testaddPermission@PermissionTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7bd4937b testClass = PermissionTest, locations = '{}', classes = '{class com.roleManagement.rolebasedManagement.RolebasedManagementApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@21e360a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3eb738bb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@185a6e9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@2cd76f31, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@55fe41ea, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@94756331, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23348b5d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7ed49a7f]; rollback [true]
+2022-04-11 11:19:42 - Rolled back transaction for test: [DefaultTestContext@2c35e847 testClass = PermissionTest, testInstance = com.roleManagement.rolebasedManagement.PermissionTest@27462a88, testMethod = testaddPermission@PermissionTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7bd4937b testClass = PermissionTest, locations = '{}', classes = '{class com.roleManagement.rolebasedManagement.RolebasedManagementApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTestContextBootstrapper=true}', contextCustomizers = set[[ImportsContextCustomizer@21e360a key = [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration, org.springframework.boot.autoconfigure.data.jpa.JpaRepositoriesAutoConfiguration, org.springframework.boot.autoconfigure.flyway.FlywayAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration, org.springframework.boot.autoconfigure.jdbc.JdbcTemplateAutoConfiguration, org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfiguration, org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration, org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration, org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration, org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration, org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManagerAutoConfiguration]], org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@3eb738bb, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@185a6e9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.autoconfigure.OverrideAutoConfigurationContextCustomizerFactory$DisableAutoConfigurationContextCustomizer@2cd76f31, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@55fe41ea, org.springframework.boot.test.autoconfigure.filter.TypeExcludeFiltersContextCustomizer@351584c0, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@94756331, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@23348b5d, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@0], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2022-04-11 11:19:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:19:42 - HikariPool-1 - Shutdown initiated...
+2022-04-11 11:19:42 - HikariPool-1 - Shutdown completed.
+2022-04-11 11:32:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:32:38 - HikariPool-1 - Shutdown initiated...
+2022-04-11 11:32:38 - HikariPool-1 - Shutdown completed.
+2022-04-11 11:32:39 - Starting RolebasedManagementApplication using Java 1.8.0_322 on intuitdep81456 with PID 88978 (/Users/ppanda2/Downloads/rolebasedManagement/target/classes started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 11:32:39 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 11:32:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 11:32:39 - Finished Spring Data repository scanning in 20 ms. Found 6 JPA repository interfaces.
+2022-04-11 11:32:39 - Tomcat initialized with port(s): 8080 (http)
+2022-04-11 11:32:39 - Starting service [Tomcat]
+2022-04-11 11:32:39 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-11 11:32:39 - Initializing Spring embedded WebApplicationContext
+2022-04-11 11:32:39 - Root WebApplicationContext: initialization completed in 272 ms
+2022-04-11 11:32:39 - HikariPool-2 - Starting...
+2022-04-11 11:32:39 - HikariPool-2 - Start completed.
+2022-04-11 11:32:39 - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/task'
+2022-04-11 11:32:39 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 11:32:39 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 11:32:39 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 11:32:39 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:32:39 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-11 11:32:39 - Unable to start LiveReload server
+2022-04-11 11:32:39 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-11 11:32:39 - Started RolebasedManagementApplication in 0.671 seconds (JVM running for 2762.117)
+2022-04-11 11:32:39 - Condition evaluation unchanged
+2022-04-11 11:32:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:32:41 - HikariPool-2 - Shutdown initiated...
+2022-04-11 11:32:41 - HikariPool-2 - Shutdown completed.
+2022-04-11 11:32:41 - Starting RolebasedManagementApplication using Java 1.8.0_322 on intuitdep81456 with PID 88978 (/Users/ppanda2/Downloads/rolebasedManagement/target/classes started by ppanda2 in /Users/ppanda2/Downloads/rolebasedManagement)
+2022-04-11 11:32:41 - No active profile set, falling back to 1 default profile: "default"
+2022-04-11 11:32:41 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-11 11:32:41 - Finished Spring Data repository scanning in 13 ms. Found 6 JPA repository interfaces.
+2022-04-11 11:32:41 - Tomcat initialized with port(s): 8080 (http)
+2022-04-11 11:32:41 - Starting service [Tomcat]
+2022-04-11 11:32:41 - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-11 11:32:41 - Initializing Spring embedded WebApplicationContext
+2022-04-11 11:32:41 - Root WebApplicationContext: initialization completed in 155 ms
+2022-04-11 11:32:41 - HikariPool-3 - Starting...
+2022-04-11 11:32:41 - HikariPool-3 - Start completed.
+2022-04-11 11:32:41 - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/task'
+2022-04-11 11:32:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-11 11:32:41 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL81Dialect
+2022-04-11 11:32:41 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-11 11:32:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 11:32:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-11 11:32:41 - Unable to start LiveReload server
+2022-04-11 11:32:41 - Tomcat started on port(s): 8080 (http) with context path ''
+2022-04-11 11:32:41 - Started RolebasedManagementApplication in 0.451 seconds (JVM running for 2764.067)
+2022-04-11 11:32:41 - Condition evaluation unchanged
